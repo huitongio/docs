@@ -66,7 +66,7 @@ tags:
 数据包有定长数据头和变长载荷组成, 结构如图:
 
 <p align="center">
-    <img width="80%" src="/assets/zh-CN/protocol/packet.png"/>
+    <img width="80%" src="/assets/zh-CN/protocol/37-packet.png"/>
 </p>
 
 ## 4.4 魔数
@@ -78,7 +78,7 @@ tags:
 固定头的第 2 个字节的高 4 位表示命令，低 4 位为命令的参数，如图：
 
 <p align="center">
-    <img width="80%" src="/assets/zh-CN/protocol/cmd.png"/>
+    <img width="80%" src="/assets/zh-CN/protocol/37-cmd.png"/>
 </p>
 
 ## 4.6 字节序
