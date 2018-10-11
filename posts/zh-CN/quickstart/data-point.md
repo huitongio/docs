@@ -10,17 +10,17 @@ tags:
 
 数据点是设备功能和参数的数字化描述。数据点需要在云端创建，在创建数据点之后，设备和云端就可以通过定义好的数据点的协议进行通信，从而达到采集设备数据，控制设备行为以及设备之间通信的效果。每一个设备都有一个或者多个数据点。如图所示:
 
-<div style="text-align: center">
-    <img src="/assets/zh-CN/quickstart/how-data-point-work.png"/>
-</div>
+<p align="center">
+    <img width="60%" src="/assets/zh-CN/quickstart/how-data-point-work.png"/>
+</p>
 
 # 2. 数据点定义说明
 
 每一个数据点都包括一系列的参数，包括，数据点偏移ID，显示名称，标识名称，数据类型，读写类型和备注等几个属性，如图所示：
 
-<div style="text-align: center">
-    <img src="/assets/zh-CN/quickstart/data-point.png"/>
-</div>
+<p align="center">
+    <img width="60%" src="/assets/zh-CN/quickstart/data-point.png"/>
+</p>
 
 ## 2.1 数据点偏ID
 
