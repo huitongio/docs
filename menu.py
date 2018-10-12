@@ -34,7 +34,7 @@ def getfiletitle(path):
         return obj['title']
 
 
-def listitems(padding="* ", path="posts"):
+def listitems(padding="* ", path="posts/zh-CN"):
     items = []
     files = os.listdir(path)
     for f in files:
