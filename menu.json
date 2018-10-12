@@ -1,1 +1,32 @@
-{}
+[
+  {
+    "level": 0,
+    "title": "English",
+    "url": "posts/en-US"
+  },
+  {
+    "level": 0,
+    "title": "中文",
+    "url": "posts/zh-CN"
+  },
+  {
+    "level": 1,
+    "title": "消息传输协议",
+    "url": "posts/zh-CN/50-protocol"
+  },
+  {
+    "level": 2,
+    "title": "37 消息传输协议",
+    "url": "posts/zh-CN/50-protocol/37-mtp.html"
+  },
+  {
+    "level": 1,
+    "title": "快速开始",
+    "url": "posts/zh-CN/10-quickstart"
+  },
+  {
+    "level": 2,
+    "title": "数据点定义",
+    "url": "posts/zh-CN/10-quickstart/data-point.html"
+  }
+]
