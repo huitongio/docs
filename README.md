@@ -32,3 +32,12 @@ tags:
 ## 站点菜单生成规则
 
 为了方便文档生成为HTML浏览，可以定义页面菜单进行导航. 在项目根目录下创建 `menu.json` 来定义页面菜单.
+
+## 目录
+
+* [English](posts/en-US)
+* [中文](posts/zh-CN)
+  * [消息传输协议](posts/zh-CN/50-protocol)
+    * [37 消息传输协议](posts/zh-CN/50-protocol/37-mtp.md)
+  * [快速开始](posts/zh-CN/10-quickstart)
+    * [数据点定义](posts/zh-CN/10-quickstart/data-point.md)
