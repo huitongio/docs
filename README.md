@@ -1,8 +1,8 @@
-# 支点云平台(Pivaiot Cloud)开放文档
+# pivaiot-docs
 
 ## 简介
 
-支点云平台开放文档
+Pivaiot 平台开放文档
 
 ## 文档编写约定
 
