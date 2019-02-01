@@ -7,37 +7,37 @@ tags:
     - JSON
 ---
 
-# 1. 概要
+# 1. 文档更新记录
 
-## 1.1 MQTT 协议介绍
+## 1.1 版本记录
+
+| 作者 | 发布日期 | 版本 | 备注 |
+| :-- | :-- | :-- | :-- |
+| Le | 2019-01-31 | 1.0 | 文档定稿 |
+
+## 1.2 问题反馈
+
+如有任何疑问或者问题反馈，请发邮件至 thisiswangle@gmail.com 或者发起 issue
+
+# 2. 概要
+
+## 2.1 MQTT 协议介绍
 
 [MQTT](http://mqtt.org/) 是一个轻量级的发布订阅消息传输协议，非常适合物联网各类设备使用。 物联网平台提供功能完整的 MQTT 接入，支持 QoS 0/1/2，并且预置了一系列 Topic，以便快速接入系统。
 
-## 1.2 MQTT 客户端和编程库
+## 2.2 MQTT 客户端和编程库
 
 * mosquitto(客户端/服务器端/编程库)
 * paho-mqtt(Python)
 * MQTT.js(Javascript)
 * eclipse paho(Java)
 
-## 1.3 连接 MQTT 服务器(MQTT Connect)
+## 2.3 连接 MQTT 服务器(MQTT Connect)
 
 使用设备 did (作为 username)和密钥（作为 passowrd）连接 MQTT 服务器，服务器将会返回状态码和消息内容给客户端，包括：
 
 * 0x00, Connected, 登录成功
 * 0x01, Connection Refused, miss username or password or not match, 登录失败
-
-# 2. 文档更新记录
-
-## 2.1 版本记录
-
-| 作者 | 发布日期 | 版本 | 备注 |
-| :-- | :-- | :-- | :-- |
-| Le | 2019-01-31 | 1.0 | 文档定稿 |
-
-## 2.2 问题反馈
-
-如有任何疑问或者问题反馈，请发邮件至 thisiswangle@gmail.com 或者发起 issue
 
 # 3. 数据接入接口
 
@@ -86,7 +86,7 @@ tags:
 /v1/devices/{did}/data
 ```
 
-例如设备(p9iLhSAxU5t9jnwMnBiJFX)有以下几个采集数据点:
+例如设备(p9iLhSAxU5t9jnwMnBiJFX)有以下几个数据点:
 
 | 键值 | 名称 | 数据类型 | 读写类型 | 示例 |
 | :-- | :-- | :-- | :-- | :-- |
