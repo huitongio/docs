@@ -17,7 +17,7 @@ tags:
 
 ## 1.2 问题反馈
 
-如有任何疑问或者问题反馈，请发邮件至 thisiswangle@gmail.com 或者发起 issue
+如有任何疑问或者问题反馈，请发邮件至 thisiswangle@gmail.com 或者发起 [issue](https://github.com/pivaiot/pivaiot-docs/blob/master/src/zh-CN/%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%85%A5/mqtt-json-api.md)
 
 # 2. 概要
 
