@@ -1,8 +1,8 @@
-# pivaiot-docs
+# huicloud-docs
 
 ## 简介
 
-Pivaiot 平台开放文档
+HuiCloud 平台开放文档
 
 ## 文档编写约定
 
