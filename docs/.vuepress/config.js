@@ -1,10 +1,10 @@
 module.exports = {
-  title: '慧通物联网云文档中心',
+  title: '慧通云文档中心',
   base: '/',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '慧通物联网云文档中心'
+      title: '慧通云文档中心'
     }
   },
   head: [
