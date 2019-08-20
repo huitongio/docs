@@ -8,10 +8,10 @@
 
 [[toc]]
 
-* [产品简介](/product-intro/)
-* [快速入门](/quick-start/)
-* [控制台操作指南](/console-intro/)
-* [设备端开发指南](/device-development-guide/)
-* [云端开发指南](/cloud-development-guide/)
+* [产品简介](/docs/product-intro/)
+* [快速入门](/docs/quick-start/)
+* [控制台操作指南](/docs/console-intro/)
+* [设备端开发指南](/docs/device-develop-guide/)
+* [云端开发指南](/cloud-develop-guide/)
 * [最佳实践](/best-practice/)
 * [FAQ](/faq/)
