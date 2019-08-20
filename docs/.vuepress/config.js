@@ -31,7 +31,7 @@ module.exports = {
           { text: '快速入门', link: '/docs/quick-start/' }
         ],
         sidebar: {
-          '/docs/': getGuide(),
+          '/docs/': genSidebarConfig(),
         }
       }
     }
@@ -40,10 +40,24 @@ module.exports = {
   evergreen: true
 }
 
-function getGuide() {
+function genSidebarConfig() {
   return [
-    'product-intro/',
-    'product-intro/function-intro',
-    'quick-start/',
+    {
+      title: '简介',
+      collapsable: false,
+      children: [
+        'product-intro/',
+        'product-intro/function-intro',
+        'product-intro/terms',
+        'product-intro/limit',
+      ]
+    },
+    {
+      title: '快速入门',
+      collapsable: false,
+      children: [
+        'quick-start/',
+      ]
+    },
   ]
 }
