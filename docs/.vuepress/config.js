@@ -43,6 +43,7 @@ module.exports = {
 function getGuide() {
   return [
     'product-intro/',
+    'product-intro/function-intro',
     'quick-start/',
   ]
 }
