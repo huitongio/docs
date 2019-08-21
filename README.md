@@ -44,11 +44,25 @@
 新建文件后，并不能立马显示，还需要在 `./docs/.vuepress/config.js` 中添加该页面的配置：
 
 ```js
-// ...
-function getGuide() {
+function genSidebarConfig() {
   return [
-    'quick-start',
-    '这里加上你刚刚新建的文件名，不需要后缀',
+    {
+      title: '简介',
+      collapsable: false,
+      children: [
+        'product-intro/',
+        'product-intro/function-intro',
+        'product-intro/terms',
+        'product-intro/limit',
+      ]
+    },
+    {
+      title: '快速入门',
+      collapsable: false,
+      children: [
+        'quick-start/',
+      ]
+    },
   ]
 }
 ```
@@ -197,7 +211,7 @@ export default {
 
     <!-- Good -->
     1. 这是第一条
-    
+
     2. 这是第二条
    
     3. ...
